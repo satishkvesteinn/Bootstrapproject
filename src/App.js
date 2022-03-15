@@ -1,24 +1,41 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Bottom from './components/Bottom';
+import Callactions from './components/Callaction';
+import Cart from './components/Cart';
+import Cartdata from './components/Cartdata';
+import Client from './components/Clients';
+import FAQ from './components/FAQ';
+import Navbar from './components/Navbar';
+import SkillbyVideo from './components/SkillbyVideo';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Home from './pages/Home';
+import Price from './pages/Price';
+import Servicesdata from './pages/Servicesdata';
+import Team from './pages/Team';
+import Teamdata from './pages/Teamdata';
+import Testimonials from './pages/Testimonials';
+import TestimonialsData from './pages/TestimonialsData';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Home />
+      <About />
+      <Client />
+      <SkillbyVideo />
+      <TestimonialsData />
+      <Servicesdata />
+      <Callactions />
+      <Teamdata />
+      <Price />
+      <FAQ />
+      <Contact />
+      <Bottom />
+    </>
+
   );
 }
 

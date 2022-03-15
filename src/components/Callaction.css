@@ -1,0 +1,48 @@
+.callaction{
+    background-color: #2487ce;
+}
+
+.callaction-container{
+    padding: 40px 0px;
+    margin-top: 6px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.callaction-title{
+    color: #eeeeee;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.callaction-paragraph{
+    font-size: 15px;
+    font-weight: 500;
+    color: #dad8d8;
+}
+
+
+
+.callaction-button{
+    margin-top: 33px;
+}
+
+.callaction-button a{
+    margin-top: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #eeeeee;
+    font-size: 16px;
+    font-weight: 500;
+    color: #eeeeee !important;
+    padding: 9px 30px;
+    border-radius: 5px;
+    transition: 0.5s all ease;
+}
+
+.callaction-button a:hover{
+    background: white;
+    color: #2487ce !important;
+}

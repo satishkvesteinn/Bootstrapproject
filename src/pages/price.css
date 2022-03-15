@@ -1,0 +1,159 @@
+
+.plan{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.price-container{
+    padding: 40px 0px;
+    margin-top: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.price-title{
+    color: #124265;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.price-paragraph{
+    font-size: 15px;
+    font-weight: 500;
+    color: grey;
+}
+
+.plan-container{
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 40px 0px;
+    background-color: rgba(231, 231, 231, 0.959);
+    width: 350px;
+}
+
+.plan-name{
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 0px;
+    color: #124265;
+}
+
+.plan-price{
+    margin-bottom: 2px;
+    /* background-color: green; */
+    position: relative;
+    font-size: 20px;
+}
+
+.plan-price sup{
+    color: steelblue;
+    position: absolute;
+    top: 45%;
+    left: 29%;
+    font-size: 20px;
+}
+
+.plan-price span{
+    color: steelblue;
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.plan-unordered-list{
+    padding: 0px;
+    text-align: center;
+}
+
+.plan-unordered-list li{
+    /* letter-spacing: .5px; */
+    list-style: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 6px 0px;
+}
+
+.plan-unordered-list li:first-child{
+    padding-top: 0px;
+}
+
+.buy-button a{
+    margin-top: 25px;
+    background-color: inherit;
+    color: #2487ce;
+    border: 2px solid #2487ce;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 8px 40px;
+    border-radius: 5px;
+    transition: 0.3s all ease;
+}
+
+.buy-button a:hover{
+    background-color: #2487ce;
+    color: rgba(255, 255, 255, 0.89);
+}
+
+.business{
+    background-color: #2487ce;
+    color: rgba(241, 241, 241, 0.89);
+}
+
+.business .plan-price sup{
+    color: rgba(241, 241, 241, 0.89);
+}
+
+.business .plan-price span{
+    color: rgba(241, 241, 241, 0.89);
+}
+
+.business .buy-button a{
+    border: 2px solid rgba(241, 241, 241, 0.89);
+    background-color: inherit;
+    color: white;
+    transition: 0.3s all ease;
+}
+
+.business .buy-button a:hover{
+    background-color: rgba(255, 255, 255, 0.89);
+    color: #2487ce;
+}
+
+.business-plan{
+    color: rgba(255, 255, 255, 0.89);
+}
+
+
+@media screen and (max-width:768px) {
+    .plan-price span{
+        color: steelblue;
+        font-size: 50px;
+        font-weight: 500;
+    }
+    .plan-price sup{
+        color: steelblue;
+        position: absolute;
+        top: 40%;
+        left: 30%;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .plan-price sup{
+        top: 40%;
+        left: 25%;
+    }
+}
+
+@media screen and (max-width:240px) {
+    .plan-price sup{
+        top: 40%;
+        left: 20%;
+    }
+}

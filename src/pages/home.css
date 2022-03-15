@@ -1,0 +1,107 @@
+.homemaincontainer{
+    background-image: linear-gradient(rgba(128, 128, 128, 0.137), 
+    rgb(161, 161, 161)),url("https://bootstrapmade.com/demo/templates/OnePage/assets/img/hero-bg.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    /* width: 10vw; */
+    background-size: 100%;
+    min-height: 800px;
+    background-repeat: no-repeat;
+   
+}
+
+.home-container{
+    opacity: 1;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    text-align: center;
+    height: 500px;
+    align-content: center;
+}
+
+.home-title{
+    display: flex;
+    align-content: center;
+    height: inherit;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: red; */
+    width: 50%;
+}
+
+.home-title h1{
+    word-spacing: 2px;
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    color: #124265;
+}
+
+.home-title p{
+    font-weight: 300;
+    font-size: 28px;
+    color: rgb(94, 86, 86);
+}
+
+.home-title span{
+    margin-top: 10px;
+}
+
+.home-title a{
+    text-decoration: none;
+    cursor: pointer;
+    background: #2487ce;
+    font-size: 16px;
+    color: white !important;
+    padding: 14px 45px;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width:1250px){
+    .home-title{
+        width: 600px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .home-title{
+        width: 100%;
+    }
+
+    .home-title h1{
+        word-spacing: 1px;
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .home-title p{
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .home-title a{
+        font-size: 14px;
+    }  
+}
+
+@media screen and (max-width:300px){
+    .home-title h1{
+        word-spacing: 1px;
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .home-title p{
+        font-weight: 400;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:200px){
+    .home-title a{
+        padding: 10px 20px;
+        font-size: 14px;
+    }  
+}

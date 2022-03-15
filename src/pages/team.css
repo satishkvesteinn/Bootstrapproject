@@ -1,0 +1,101 @@
+
+
+.team-container{
+    padding: 40px 0px;
+    margin-top: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.team-title{
+    color: #124265;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.team-paragraph{
+    font-size: 15px;
+    font-weight: 500;
+    color: grey;
+}
+
+.team-profile-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* background-color: red; */
+}
+
+.team-profile{
+    margin-bottom: 20px;
+    border-radius: 3px;
+    background-color: rgb(228, 228, 228);
+}
+
+.team-member-image{
+    position: relative;
+    overflow: hidden;
+}
+
+.team-member-image img{
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+    width: 260px;
+}
+
+.team-member-details h5{
+    font-size: 18px;
+    font-weight: 700;
+    color: #124265;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.team-member-details{
+    z-index: 1000;
+}
+.team-member-details p{
+    font-weight: 500;
+    margin-top: 5px;
+    color: grey;
+    font-size: 15px;
+}
+
+.member-social-media{
+    opacity: 0.9;
+    background-color: rgb(228, 228, 228);
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    transition: 0.3s ease all;
+}
+
+.team-profile:hover .member-social-media{
+    top: 85%;
+}
+
+.member-social-media ul{
+    margin-bottom: 0px;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.member-social-media ul li{
+    padding: 8px 10px;
+    /* background-color: green; */
+   list-style: none;
+}
+
+.member-social-media ul li a{
+  text-decoration: none;
+}
+
+.member-social-media ul li a i::before{
+    color: #124265;
+   font-size: 20px !important;
+  }

@@ -1,0 +1,41 @@
+.clientsdata{
+    width: 200px;
+    margin-bottom: 0px;
+   text-align: center;
+}
+
+.Client-section{
+    background-color: rgba(235, 235, 235, 0.87);
+}
+
+.client-container{
+    flex-wrap: wrap;
+    padding: 30px 0px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.clientsdata h1{
+    color: #124265;
+    margin-bottom: 10px;
+    font-size: 55px;
+     font-weight: 900;
+}
+
+.clientsdata p{
+    color: #124265;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 15px;
+     font-weight: 500;
+}
+
+@media screen and (max-width: 1000px) {
+    .clientsdata{
+        width: 50%;
+        margin-bottom: 0px;
+       text-align: center;
+    }
+    
+}

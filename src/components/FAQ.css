@@ -1,0 +1,77 @@
+
+.plan{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.FAQ-container{
+    padding: 40px 0px;
+    margin-top: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.FAQ-title{
+    color: #124265;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.FAQ-paragraph{
+    font-size: 15px;
+    font-weight: 500;
+    color: grey;
+}
+
+.myaccordion{
+    z-index: 1;
+    position: relative;
+    padding: 10px 20px;
+    margin: 0px 60px;
+    height: auto;
+    border: 1px solid red;
+}
+
+.myaccordion-heading{
+    margin-bottom: 10px;
+    cursor: pointer;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.myaccordion-title{
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 900;
+    color:#124265;
+}
+
+.myaccordion-dropdown::before{
+    color:#124265;
+    font-size: 20px;
+    font-weight: 900 !important;
+}
+
+.myaccordian-answer{
+    visibility: hidden;
+    /* display: none; */
+    position: absolute;
+    top: 10%;
+    text-align: start !important;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.6s all ease linear;
+    z-index: -1;
+}
+
+.myaccordion:hover .myaccordian-answer{
+    position: absolute;
+    top: 100%;
+    visibility: visible;
+}

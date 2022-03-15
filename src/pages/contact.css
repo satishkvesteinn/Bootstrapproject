@@ -1,0 +1,162 @@
+
+.contact-container{
+    padding: 40px 0px;
+    margin-top: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.contact-title{
+    color: #124265;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.contact-paragraph{
+    font-size: 15px;
+    font-weight: 500;
+    color: grey;
+}
+
+.details{
+    margin-bottom: 20px;
+    height: 60px;
+    align-content: center;
+    display: flex;
+    text-align: start;
+}
+
+.location{
+    align-self: center;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #2487ce;
+    color: white;
+    font-weight: 900 !important;
+}
+
+.location-container{
+    width: 400px;
+}
+
+.details-title{
+    margin-left: 10px;
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.details-title h4{
+    color: #124265;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.details-title p{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.contact-detail-container{
+    margin-top: 30px;
+    display: flex;
+}
+
+.form-container{
+    margin-left: 20px;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fname , .lname{
+    margin-bottom: 10px;
+    outline: none;
+    padding: 10px 5px;
+    font-size: 17px;
+    font-weight: 500;
+    width: 360px;
+    border-radius: 5px;
+    border: 1px solid rgb(219, 219, 219);
+}
+
+.subject{
+    border-radius: 5px;
+    border: 1px solid rgb(219, 219, 219);
+    margin-bottom: 10px;
+    outline: none;
+    padding: 10px 5px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.message{
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    min-height: 100px;
+    outline: none;
+    border: 1px solid rgb(219, 219, 219);
+}
+
+.submit-button{
+    border-radius: 5px;
+    align-items: end;
+  width: 20%;  
+  padding: 10px 15px; 
+  border: none;
+  color: white;
+  background-color: #2487ce;
+}
+
+@media screen and (max-width:1000px){
+    .contact-detail-container{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .form-container{
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .contact-detail-container{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .form-container{
+        padding: 10px;
+        width: 100%;
+    }
+
+    .name-container{
+        flex-direction: column;
+    }
+
+    .fname , .lname{
+        width: 100%;
+    }
+    .submit-button{   
+      width:50%;  
+    }
+
+    .location-container{
+        padding: 10px;
+        width: 100%;
+    }
+}
