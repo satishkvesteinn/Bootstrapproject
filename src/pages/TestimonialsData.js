@@ -46,25 +46,23 @@ function TestimonialsData() {
         }
     ]
 
-    console.log(quoters);
-
     return (
         <>
             <div className='testimonials'>
                 <div className='container testimonials-container'>
                     <h2 className='testimonials-title'>TESTIMONIALS</h2>
                     <p className='testimonials-paragraph'>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-                   <div className='quote-rapper'>
-                   {
-                        quoters.map((item) => {
-                            return (<Testimonials key={item.id}
-                                quoterImgUrl={item.quoterImgUrl}
-                                quoterName={item.quoterName}
-                                post={item.post}
-                                quote={item.quote}
-                            />)
-                        })}
-                   </div>
+                    <div className='quote-rapper'>
+                        {
+                            quoters.map((item) => {
+                                return (<Testimonials key={item.id}
+                                    quoterImgUrl={item.quoterImgUrl}
+                                    quoterName={item.quoterName}
+                                    post={item.post}
+                                    quote={item.quote}
+                                />)
+                            })}
+                    </div>
                 </div>
             </div>
         </>

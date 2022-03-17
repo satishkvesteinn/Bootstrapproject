@@ -162,6 +162,10 @@
     justify-content: space-between;
 }
 
+.social-media{
+    align-self: center;
+}
+
 .social-media ul{
     margin-bottom: 0px;
     display: flex;
