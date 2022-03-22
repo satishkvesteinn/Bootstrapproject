@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Bootstrapproject/static/css/main.7c567a6b.css",
+    "main.js": "/Bootstrapproject/static/js/main.1032c83c.js",
+    "index.html": "/Bootstrapproject/index.html",
+    "main.7c567a6b.css.map": "/Bootstrapproject/static/css/main.7c567a6b.css.map",
+    "main.1032c83c.js.map": "/Bootstrapproject/static/js/main.1032c83c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c567a6b.css",
+    "static/js/main.1032c83c.js"
+  ]
+}
